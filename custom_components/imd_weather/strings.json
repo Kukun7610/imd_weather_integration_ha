@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "IMD Weather",
+        "description": "Choose how to set your location.",
+        "menu_options": {
+          "hierarchy": "India › State › District › Subdivision › City",
+          "coordinates": "Latitude and Longitude"
+        }
+      },
+      "coordinates": {
+        "title": "Coordinates",
+        "description": "The nearest IMD city station will be used.",
+        "data": { "latitude": "Latitude", "longitude": "Longitude" }
+      },
+      "state": { "title": "State", "data": { "state": "State / UT" } },
+      "district": { "title": "District", "data": { "district": "District" } },
+      "subdivision": { "title": "Meteorological subdivision", "data": { "subdivision": "Subdivision" } },
+      "city": { "title": "City / forecast station", "data": { "city_id": "City" } }
+    },
+    "error": {
+      "cannot_connect": "Could not reach api.imd.gov.in",
+      "no_stations": "No IMD stations with coordinates were returned"
+    },
+    "abort": { "already_configured": "This location is already configured" }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "IMD Weather (India Meteorological Department)",
+  "render_readme": true,
+  "homeassistant": "2024.8.0"
+}
