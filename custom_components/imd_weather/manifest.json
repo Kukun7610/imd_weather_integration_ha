@@ -3,8 +3,8 @@
   "name": "IMD Weather",
   "codeowners": [],
   "config_flow": true,
-  "documentation": "https://github.com/YOUR_USER/imd_weather",
-  "issue_tracker": "https://github.com/YOUR_USER/imd_weather/issues",
+  "documentation": "https://github.com/kukun7610/imd_weather",
+  "issue_tracker": "https://github.com/kukun7610/imd_weather/issues",
   "iot_class": "cloud_polling",
   "requirements": [],
   "version": "0.1.0"
